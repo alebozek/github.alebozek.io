@@ -1,14 +1,14 @@
 # The Site Configuration
 
 # Import the theme
-#theme: jekyll-theme-chirpy
-pages-themes/midnight@v0.2.0
+theme: jekyll-theme-chirpy
+#theme: "pages-themes/midnight@v0.2.0"
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 # Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
 # and doesn't have a custom domain.
-baseurl: ''
+baseurl: '/PROJECT_NAME'
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -22,9 +22,9 @@ timezone: Europe/Madrid
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: th3_m0th                          # the main title
+title: alebozek # the main title
 
-tagline: Software developer and pentester amateur   # it will display as the sub-title
+tagline: Jr DevOps and Cybersecurity Student   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Blog sobre ciberseguridad, programación y pentesting en general. Aquí publico mis paranoias varias, espero que sean de tu agrado.
@@ -33,10 +33,7 @@ description: >-                        # used by seo meta and the atom feed
 url: ''
 
 github:
-  username: th3_m0th             # change to your github username
-
-twitter:
-  username: th3_m0th            # change to your twitter username
+  username: alebozek             # change to your github username
 
 gitlab:
   username: th3-m0th
@@ -48,7 +45,6 @@ social:
   email: th3.m0th@disroot.org             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/th3_m0th      # change to your twitter homepage
     - https://github.com/th3-m0th       # change to your github homepage
     - https://gitlab.com/th3-m0th
     # Uncomment below to add more social links
